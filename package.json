@@ -1,0 +1,25 @@
+{
+  "name": "babel-macro-cxt",
+  "version": "0.1.0",
+  "description": "模拟perl的$_, $__, $___ 上下文变量",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "test": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "Ajanuw",
+    "babel-plugin-macros",
+    "babel-macro-cxt"
+  ],
+  "author": "Ajanuw",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/generator": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "babel-plugin-macros": "^2.8.0"
+  }
+}
